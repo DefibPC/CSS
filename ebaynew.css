@@ -1,0 +1,160 @@
+<style>
+
+.promo {
+ float: left;
+ width: 100%;
+ padding: 2%;
+ overlow: hidden;
+}
+
+.promo img {
+ float: left;
+ width: 33%;
+ overflow: auto;
+ margin: auto;
+}
+
+.returns {
+ width: 100%;
+ float: left;
+ padding: 2%;
+ border-top: 1px solid lightgrey;
+ font-family: monospace;
+ font-size: 140%;
+ overflow:hidden;
+}
+
+.shipping {
+ width: 100%;
+ float: left;
+ padding: 2%;
+ border-top: 1px solid lightgrey;
+ font-family: monospace;
+ font-size: 140%;
+ overflow:hidden;
+}
+
+.payment {
+ width: 100%;
+ float: left;
+ padding: 2%;
+ border-top: 1px solid lightgrey;
+ font-family: monospace;
+ font-size: 140%;
+ overflow:hidden;
+}
+.container {
+width: 90%;
+padding: 2%
+}
+
+.header {
+width: 100%;
+text-align: center;
+}
+
+.logo {
+width: 70%;
+}
+
+.buttons {
+  text-align: center;
+  font-family: monospace;
+  font-size: 18px
+}
+
+ul {
+  list-style-type: none;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey; 
+  width: 100%  
+}
+
+li {
+  display: inline;
+  padding: 2%;
+}
+
+a {
+  padding: 1%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+.product {
+  width: 100%;
+}
+
+specs {
+  float: left;
+  width: 46%;
+  font-family: monospace;
+  font-size: 140%;
+  padding: 2%;
+  overflow:hidden;
+}
+
+.image {
+  float: left;
+  padding: 2%;
+  width: 46%;
+  overflow:hidden;
+}
+
+.col1 {
+Text-align: center;
+width: 30%;
+border-top: 1px solid lightgrey;
+padding: 1.5%;
+font-weight: bold;
+}
+
+.col2 {
+text-align: left;
+width: 70%;
+border-top: 1px solid lightgrey;
+padding: 1.5%;
+}
+
+table {
+border-bottom: 1px solid lightgrey;
+}
+
+ @media (min-width: 100px) and (max-width: 800px) {
+
+specs{
+  float: left;
+  width: 100%
+}
+.image {
+  width: 100%;
+}
+li {
+  display: block;
+  padding: 1%;
+}
+.logo {
+ display: block;
+ Margin: auto;
+}
+
+</style>
