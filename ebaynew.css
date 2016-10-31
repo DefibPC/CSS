@@ -9,6 +9,7 @@
 
 .promo img {
  width: 30%;
+ float: left; 
 }
 
 .returns {
